@@ -26,7 +26,7 @@
 
 
 # ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ sᴛʀɪɴɢ sᴇssɪᴏɴ
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@social-mechanic-1997/getStringName#main.py) 
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@SOCIAL-MECHANIC-1997/getStringName#main.py) 
 to get pyrogram string session
 
 
