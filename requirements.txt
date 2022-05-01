@@ -1,5 +1,5 @@
 git+https://github.com/pyrogram/pyrogram@master
-TgCrypto
+git+https://github.com/pyrogram/tgcrypto@master
 py-tgcalls==0.8.1
 python-dotenv
 yt_dlp
