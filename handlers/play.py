@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: ꜱᴏᴄɪᴀʟᴍᴇᴄʜᴀɴɪᴄ",
+        f"Powered By:ꜱᴏᴄɪᴀʟ ᴍᴇᴄʜᴀɴɪᴄ",
         (255, 255, 255),
         font=font,
     )
@@ -184,7 +184,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/tamil_chat_group_1")
+                            url=f"https://t.me/TECHNOLOGY_CORNER_1")
 
                 ]
             ]
@@ -223,7 +223,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/tamil_chat_group_1")
+                            url=f"https://t.me/TECHNOLOGY_CORNER_1")
 
                 ]
             ]
@@ -239,7 +239,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/tamil_chat_group_1")
+                            url=f"https://t.me/TECHNOLOGY_CORNER_1")
 
                 ]
             ]
@@ -294,7 +294,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/tamil_chat_group_1")
+                            url=f"https://t.me/TECHNOLOGY_CORNER_1")
 
                 ]
             ]
