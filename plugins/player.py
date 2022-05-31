@@ -1,4 +1,4 @@
-# 𝐀𝐝𝐢𝐭𝐲𝐚 𝐇𝐚𝐥𝐝𝐞𝐫 // @socialmechanic
+# social mechanic // @socialmechanic
 import os
 import aiofiles
 import aiohttp
@@ -107,7 +107,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Aditya Halder (@AdityaHalder)",
+        f"Powered By: SOCIAL MECHANIC (@social_mechanic_1997)",
         (255, 255, 255),
         font=font,
     )
@@ -135,7 +135,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Aditya_Player"
+        user.first_name = "SOCIAL_MECHANIC"
     usar = user
     wew = usar.id
     try:
@@ -191,22 +191,22 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/{OWNER_USERNAME}")
+                            text=" 𝐎𝐰𝐧𝐞𝐫 ",
+                            url=f"https://t.me/social_mechanic_1997")
                ],
                [
                     InlineKeyboardButton(
                             text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"{UPDATES_CHANNEL}"),
+                            url=f"https://t.me/social_mechanic"),
                             
                     InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"{SUPPORT_GROUP}")
+                            url=f"https://t.me/tamil_chat_group_1")
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
+                            text="cσммεหdร",
+                            url=f"https://telegra.ph/ANGEL-VC-MUSIC-BOT-05-22")
                    
                 ]
             ]
@@ -244,22 +244,22 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/{OWNER_USERNAME}")
+                            text=" 𝐎𝐰𝐧𝐞𝐫 ",
+                            url=f"https://t.me/social_mechanic_1997")
                ],
                [
                     InlineKeyboardButton(
                             text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"{UPDATES_CHANNEL}"),
+                            url=f"https://t.me/social_mechanic"),
                             
                     InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"{SUPPORT_GROUP}")
+                            url=f"https://t.me/tamil_chat_group_1")
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
+                            text="cσммεหdร",
+                            url=f"https://telegra.ph/ANGEL-VC-MUSIC-BOT-05-22")
                    
                 ]
             ]
@@ -274,22 +274,22 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/{OWNER_USERNAME}")
+                            text=" 𝐎𝐰𝐧𝐞𝐫 ",
+                            url=f"https://t.me/social_mechanic_1997")
                ],
                [
                     InlineKeyboardButton(
                             text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"{UPDATES_CHANNEL}"),
+                            url=f"https://t.me/social_mechanic"),
                             
                     InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"{SUPPORT_GROUP}")
+                            url=f"https://t.me/tamil_chat_group_1")
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
+                            text="cσммεหdร",
+                            url=f"https://telegra.ph/ANGEL-VC-MUSIC-BOT-05-22")
                    
                 ]
             ]
@@ -342,22 +342,22 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/{OWNER_USERNAME}")
+                            text=" 𝐎𝐰𝐧𝐞𝐫 ",
+                            url=f"https://t.me/social_mechanic_1997")
                ],
                [
                     InlineKeyboardButton(
                             text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"{UPDATES_CHANNEL}"),
+                            url=f"https://t.me/social_mechanic"),
                             
                     InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"{SUPPORT_GROUP}")
+                            url=f"https://t.me/tamil_chat_group_1")
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
+                            text="cσммεหdร",
+                            url=f"https://telegra.ph/ANGEL-VC-MUSIC-BOT-05-22")
                    
                 ]
             ]
