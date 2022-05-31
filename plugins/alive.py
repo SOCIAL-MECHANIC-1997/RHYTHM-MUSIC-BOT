@@ -1,3 +1,5 @@
+# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 (C) 2022 𝑩𝒚 @socialmechanic
+
 import asyncio
 from time import time
 from datetime import datetime
