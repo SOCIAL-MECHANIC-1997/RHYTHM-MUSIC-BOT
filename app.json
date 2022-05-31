@@ -1,5 +1,5 @@
 {
-    "name": "ANGEL",
+    "name": "ANGEL MUSIC BOT",
     "logo": "https://telegra.ph/file/3eaa696690c2910facd2a.jpg",
     "description": "ʜᴇʟʟᴏ,ɪ ᴀᴍ ANGEL sᴜᴘᴇʀ ғᴀsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs...",
     "keywords": ["angelmusicbot", "voice chat", "telegram"],
@@ -17,12 +17,12 @@
         "ASSISTANT_NAME": {
             "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝑵𝒂𝒎𝒆",
             "required": true,
-            "value": "𝐀𝐝𝐢𝐭𝐲𝐚 𝐏𝐥𝐚𝐲𝐞𝐫"
+            "value": "ANGEL"
         },
         "ASSISTANT_USERNAME": {
             "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 (𝑾𝒊𝒕𝒉𝒐𝒖𝒕 '@')",
             "required": true,
-            "value": "aditya_player"
+            "value": "@ANGEL_VOICE_ASSISTANT"
         },
         "BOT_IMAGE": {
             "description": "𝑰𝒎𝒂𝒈𝒆 𝑻𝒉𝒖𝒎𝒃𝒏𝒂𝒊𝒍 𝑳𝒊𝒏𝒌 𝑶𝒇 𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕",
