@@ -1,7 +1,7 @@
 {
     "name": "ANGEL",
     "logo": "https://telegra.ph/file/3eaa696690c2910facd2a.jpg",
-    "description": "ʜᴇʟʟᴏ,ɪ ᴀᴍ "ANGEL" sᴜᴘᴇʀ ғᴀsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs...",
+    "description": "ʜᴇʟʟᴏ,ɪ ᴀᴍ ANGEL sᴜᴘᴇʀ ғᴀsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs...",
     "keywords": ["angelmusicbot", "voice chat", "telegram"],
     "repository": "https://github.com/adityabots/tgmusicbot",
     "stack": "container",
