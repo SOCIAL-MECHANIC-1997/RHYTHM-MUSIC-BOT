@@ -1,8 +1,8 @@
 {
-    "name": "ʀʜʏᴛʜᴍ",
+    "name": "ANGEL",
     "logo": "https://telegra.ph/file/3eaa696690c2910facd2a.jpg",
-    "description": "🥀 𝐀𝐧 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐚𝐧𝐝 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐅𝐨𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩 𝐕𝐂 ✨",
-    "keywords": ["tgmusicbot", "voice chat", "telegram"],
+    "description": "ʜᴇʟʟᴏ,ɪ ᴀᴍ "ANGEL" sᴜᴘᴇʀ ғᴀsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs...",
+    "keywords": ["angelmusicbot", "voice chat", "telegram"],
     "repository": "https://github.com/adityabots/tgmusicbot",
     "stack": "container",
     "env": {
@@ -27,12 +27,12 @@
         "BOT_IMAGE": {
             "description": "𝑰𝒎𝒂𝒈𝒆 𝑻𝒉𝒖𝒎𝒃𝒏𝒂𝒊𝒍 𝑳𝒊𝒏𝒌 𝑶𝒇 𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕",
             "required": true,
-            "value": "https://te.legra.ph/file/c6e1041c6c9a12913f57a.png"
+            "value": "https://telegra.ph/file/3eaa696690c2910facd2a.jpg"
         },
         "BOT_NAME": {
             "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑵𝒂𝒎𝒆",
             "required": true,
-            "value": "𝐀𝐝𝐢𝐭𝐲𝐚 𝐌𝐮𝐬𝐢𝐜"
+            "value": "𝐀ngel music"
         },
         "BOT_TOKEN": {
             "description": "𝑮𝒆𝒕 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏 𝑶𝒇 𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑭𝒓𝒐𝒎 𝑩𝒐𝒕𝑭𝒂𝒕𝒉𝒆𝒓",
@@ -41,27 +41,27 @@
         "BOT_USERNAME": {
             "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 (𝑾𝒊𝒕𝒉𝒐𝒖𝒕 '@')",
             "required": true,
-            "value": "aditya_vcbot"
+            "value": "SOCIAL_MECHANIC_MUSIC_BOT"
         },
         "DURATION_LIMIT": {
             "description": "𝑺𝒆𝒕 𝑴𝒂𝒙𝒊𝒎𝒖𝒎 𝑴𝒖𝒔𝒊𝒄 𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏 𝑳𝒊𝒎𝒊𝒕 (𝑴𝒊𝒏𝒖𝒕𝒆𝒔) 𝒀𝒐𝒖 𝑾𝒂𝒏𝒕",
             "required": true,
-            "value": "60"
+            "value": "600"
         },
         "OWNER_NAME": {
             "description": "𝑵𝒂𝒎𝒆 𝑶𝒇 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑶𝒘𝒏𝒆𝒓",
             "required": true,
-            "value": "𝑨𝒅𝒊𝒕𝒚𝒂 𝑯𝒂𝒍𝒅𝒆𝒓"
+            "value": "SOCIAL MECHANIC"
         },
         "OWNER_USERNAME": {
             "description": "𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 𝑶𝒇 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑶𝒘𝒏𝒆𝒓",
             "required": true,
-            "value": "AdityaHalder"
+            "value": "social_mechanic_1997"
         },
         "SOURCE_CODE": {
             "description": "𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑹𝒆𝒑𝒐𝒔𝒊𝒕𝒐𝒓𝒚 𝑳𝒊𝒏𝒌 𝑭𝒐𝒓 𝑭𝒖𝒕𝒖𝒓𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔",
             "required": true,
-            "value": "https://github.com/adityabots/tgmusicbot"
+            "value": "https://github.com/SOCIAL-MECHANIC-1997/RHYTHM-MUSIC-BOT"
         },
         "STRING_SESSION": {
             "description": "𝒀𝒐𝒖𝒓 𝑷𝒚𝒓𝒐𝒈𝒓𝒂𝒎 𝑺𝒕𝒓𝒊𝒏𝒈 𝑺𝒆𝒔𝒔𝒊𝒐𝒏 (𝑮𝒆𝒕 𝒊𝒕 𝑭𝒓𝒐𝒎 𝑹𝒆𝒑𝒍𝒊𝒕)",
@@ -70,18 +70,18 @@
         "SUDO_USERS": {
             "description": "𝑺𝒖𝒅𝒐 𝑼𝒔𝒆𝒓𝒔 𝑪𝒂𝒏 𝑪𝒐𝒏𝒕𝒓𝒐𝒍 𝑩𝒐𝒕 𝑾𝒊𝒕𝒉𝒐𝒖𝒕 𝑨𝒅𝒎𝒊𝒏 𝑷𝒆𝒓𝒎𝒊𝒔𝒔𝒊𝒐𝒏",
             "required": true,
-            "value": "1282754256"
+            "value": "5381110836"
             
         },
         "SUPPORT_GROUP": {
             "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑮𝒓𝒐𝒖𝒑 𝑭𝒖𝒍𝒍 𝑳𝒊𝒏𝒌",
             "required": true,
-            "value": "https://t.me/AdityaDiscus"
+            "value": "https://t.me/tamil_chat_group_1"
         },
         "UPDATES_CHANNEL": {
             "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑭𝒖𝒍𝒍 𝑳𝒊𝒏𝒌",
             "required": true,
-            "value": "https://t.me/AdityaServer"
+            "value": "https://t.me/SOCIAL_MECHANIC"
         }
     },
     "buildpacks": [
