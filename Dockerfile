@@ -1,11 +1,8 @@
-FROM python:3.9.7-slim-buster
+FROM nikolaik/python-nodejs:python3.10-nodejs17
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install git curl python3-pip ffmpeg -y
+RUN apt-get install ffmpeg -y
+COPY . /app/
+WORKDIR /app/
 RUN pip3 install -U pip
-RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
-RUN apt-get install -y nodejs
-RUN npm install -g npm@8.1.3
-COPY . /hacker/
-WORKDIR /hacker/
 RUN pip3 install -U -r requirements.txt
-CMD python3 -m modules
+CMD python3 -m main.py
