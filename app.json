@@ -1,95 +1,44 @@
 {
-    "name": "ANGEL MUSIC BOT",
-    "logo": "https://telegra.ph/file/3eaa696690c2910facd2a.jpg",
-    "description": "ʜᴇʟʟᴏ,ɪ ᴀᴍ ANGEL sᴜᴘᴇʀ ғᴀsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs...",
-    "keywords": ["angelmusicbot", "voice chat", "telegram"],
-    "repository": "https://github.com/adityabots/tgmusicbot",
-    "stack": "container",
-    "env": {
-        "API_HASH": {
-            "description": "𝑨𝒑𝒊 𝑯𝒂𝒔𝒉 𝑶𝒇 𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕",
-            "required": true
-        },
-        "API_ID": {
-            "description": "𝑨𝒑𝒊 𝑰𝑫 𝑶𝒇 𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕",
-            "required": true
-        },
-        "ASSISTANT_NAME": {
-            "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝑵𝒂𝒎𝒆",
-            "required": true,
-            "value": "ANGEL"
-        },
-        "ASSISTANT_USERNAME": {
-            "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 (𝑾𝒊𝒕𝒉𝒐𝒖𝒕 '@')",
-            "required": true,
-            "value": "@ANGEL_VOICE_ASSISTANT"
-        },
-        "BOT_IMAGE": {
-            "description": "𝑰𝒎𝒂𝒈𝒆 𝑻𝒉𝒖𝒎𝒃𝒏𝒂𝒊𝒍 𝑳𝒊𝒏𝒌 𝑶𝒇 𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕",
-            "required": true,
-            "value": "https://telegra.ph/file/3eaa696690c2910facd2a.jpg"
-        },
-        "BOT_NAME": {
-            "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑵𝒂𝒎𝒆",
-            "required": true,
-            "value": "𝐀ngel music"
-        },
-        "BOT_TOKEN": {
-            "description": "𝑮𝒆𝒕 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏 𝑶𝒇 𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑭𝒓𝒐𝒎 𝑩𝒐𝒕𝑭𝒂𝒕𝒉𝒆𝒓",
-            "required": true
-        },
-        "BOT_USERNAME": {
-            "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 (𝑾𝒊𝒕𝒉𝒐𝒖𝒕 '@')",
-            "required": true,
-            "value": "SOCIAL_MECHANIC_MUSIC_BOT"
-        },
-        "DURATION_LIMIT": {
-            "description": "𝑺𝒆𝒕 𝑴𝒂𝒙𝒊𝒎𝒖𝒎 𝑴𝒖𝒔𝒊𝒄 𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏 𝑳𝒊𝒎𝒊𝒕 (𝑴𝒊𝒏𝒖𝒕𝒆𝒔) 𝒀𝒐𝒖 𝑾𝒂𝒏𝒕",
-            "required": true,
-            "value": "600"
-        },
-        "OWNER_NAME": {
-            "description": "𝑵𝒂𝒎𝒆 𝑶𝒇 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑶𝒘𝒏𝒆𝒓",
-            "required": true,
-            "value": "SOCIAL MECHANIC"
-        },
-        "OWNER_USERNAME": {
-            "description": "𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 𝑶𝒇 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑶𝒘𝒏𝒆𝒓",
-            "required": true,
-            "value": "social_mechanic_1997"
-        },
-        "SOURCE_CODE": {
-            "description": "𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑹𝒆𝒑𝒐𝒔𝒊𝒕𝒐𝒓𝒚 𝑳𝒊𝒏𝒌 𝑭𝒐𝒓 𝑭𝒖𝒕𝒖𝒓𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔",
-            "required": true,
-            "value": "https://github.com/SOCIAL-MECHANIC-1997/RHYTHM-MUSIC-BOT"
-        },
-        "STRING_SESSION": {
-            "description": "𝒀𝒐𝒖𝒓 𝑷𝒚𝒓𝒐𝒈𝒓𝒂𝒎 𝑺𝒕𝒓𝒊𝒏𝒈 𝑺𝒆𝒔𝒔𝒊𝒐𝒏 (𝑮𝒆𝒕 𝒊𝒕 𝑭𝒓𝒐𝒎 𝑹𝒆𝒑𝒍𝒊𝒕)",
-            "required": true
-        },
-        "SUDO_USERS": {
-            "description": "𝑺𝒖𝒅𝒐 𝑼𝒔𝒆𝒓𝒔 𝑪𝒂𝒏 𝑪𝒐𝒏𝒕𝒓𝒐𝒍 𝑩𝒐𝒕 𝑾𝒊𝒕𝒉𝒐𝒖𝒕 𝑨𝒅𝒎𝒊𝒏 𝑷𝒆𝒓𝒎𝒊𝒔𝒔𝒊𝒐𝒏",
-            "required": true,
-            "value": "5381110836"
-            
-        },
-        "SUPPORT_GROUP": {
-            "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑮𝒓𝒐𝒖𝒑 𝑭𝒖𝒍𝒍 𝑳𝒊𝒏𝒌",
-            "required": true,
-            "value": "https://t.me/tamil_chat_group_1"
-        },
-        "UPDATES_CHANNEL": {
-            "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑭𝒖𝒍𝒍 𝑳𝒊𝒏𝒌",
-            "required": true,
-            "value": "https://t.me/SOCIAL_MECHANIC"
-        }
+  "name": "Rhythm_Music_Bot",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+   "logo": "https://telegra.ph/file/6caec29bf58337953a4b4.png",
+   "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/SOCIAL-MECHANIC-TEAM-NRD/RHYTHM-MUSIC-BOT",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram session string",
+      "required": false
     },
-    "buildpacks": [
-    {
-      "url": "heroku/python"
+    "BOT_TOKEN": {
+      "description": "A bot token from @BotFather",
+      "required": false,
+      "value": ""
     },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    "BOT_USERNAME": {
+      "description": "Put Bot Username Without '@' Ex:- Social_music_Bot",
+      "required": true,
+      "value": ""
+    },
+    "API_ID": {
+      "description": "App ID from my.telegram.org/apps",
+      "required": false,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "App hash from my.telegram.org/apps",
+      "required": false,
+      "value": ""
+    },
+    "SUDO_USERS": {
+      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "required": false,
+      "value": ""
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": false,
+      "value": "600"
     }
-  ]
+  }
 }
