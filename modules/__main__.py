@@ -1,5 +1,5 @@
-from pyrogram import Client as Bot
 from pyrogram import idle
+from pyrogram import Client as Bot
 from modules.callsmusic import run
 from modules.config import API_ID, API_HASH, BOT_TOKEN
 
