@@ -1,5 +1,4 @@
 from typing import Union
-
 from pyrogram.types import Message, Audio, Voice
 
 
