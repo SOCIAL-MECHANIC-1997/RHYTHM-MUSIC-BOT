@@ -4,14 +4,15 @@ asyncio
 dnspython
 ffmpeg-python
 future
+yt-dlp==2021.12.01
 motor
 pillow
 psutil
 pyrogram==1.4.16
-py-tgcalls==0.8.6
+py-tgcalls==0.8.1
 python-dotenv
 requests
 tgcrypto
 wget
 youtube-search
-youtube-search-python
+youtube-search-python==1.4.9
