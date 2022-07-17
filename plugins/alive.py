@@ -1,5 +1,3 @@
-# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 (C) 2022 𝑩𝒚 @socialmechanic
-
 import asyncio
 from time import time
 from datetime import datetime
@@ -39,9 +37,9 @@ async def start_(client: Client, message: Message):
         photo=f"https://telegra.ph/file/3eaa696690c2910facd2a.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━
 ✨ ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
-ʙᴏᴛ ᴀɴᴅ ɴᴏ ʟᴀɢ ɪssᴜᴇ ᴡɪᴛʜ ʜᴇʏ ɢᴜʏꜱ 
-ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ [SOCIAL MECHANIC](https://t.me/Social_mechanic_1997)...
+ʙᴏᴛ ᴀɴᴅ ɴᴏ ʟᴀɢ ɪssᴜᴇ ᴡɪᴛʜ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ sᴏᴄɪᴀʟ ᴍᴇᴄʜᴀɴɪᴄ...
+💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
+ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ [sᴏᴄɪᴀʟ ᴍᴇᴄʜᴀɴɪᴄ](https://t.me/Social_mechanic_1997)...
 ━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
     [
@@ -49,8 +47,8 @@ async def start_(client: Client, message: Message):
             InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/SOCIAL_MECHANIC_MUSIC_BOT?startgroup=true")
         ],
         [
-            InlineKeyboardButton("✒️ ᴄᴏᴍᴍᴀɴᴅs", url=""),
-            InlineKeyboardButton("📱 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/Social_mechanic_1997")
+            InlineKeyboardButton("📝 ᴄᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/ANGEL-VC-MUSIC-BOT-05-22"),
+            InlineKeyboardButton("⚕️ ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/social_mechanic_1997")
         ],
         [
             InlineKeyboardButton("👥 ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ", url="https://t.me/tamil_chat_group_1"),
@@ -73,7 +71,7 @@ async def start(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="👥 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Tamil_chat_group_1"),
+                InlineKeyboardButton(text="👥 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/tamil_chat_group_1"),
                 InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/social_mechanic"),
             ]
         ]
@@ -81,7 +79,7 @@ async def start(client: Client, message: Message):
   ) 
 
 
-@Client.on_message(commandpro(["/updates", "Channel", "/social"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/updates", "Channel"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/3eaa696690c2910facd2a.jpg",
