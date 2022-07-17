@@ -1,4 +1,4 @@
-# social mechanic // @socialmechanic
+# Social mechanic // @social_mechanic_1997
 
 import os
 import aiofiles
@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: sᴏᴄɪᴀʟ ᴍᴇᴄʜᴀɴɪᴄ (@social_mechanic_1997)",
+        f"Powered By: SOCIAL MECHANIC (@Social_mechanic_1997)",
         (255, 255, 255),
         font=font,
     )
@@ -141,12 +141,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [SOCIAL MECHANIC](https://t.me/Social_mechanic_1997)** ")
+                        f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [sᴏᴄɪᴀʟ ᴍᴇᴄʜᴀɴɪᴄ](https://t.me/Social_mechanic_1997)** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [SOCIAL MECHANIC](https://t.me/Social_mechanic_1997)*")
+            f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [sᴏᴄɪᴀʟ ᴍᴇᴄʜᴀɴɪᴄ](https://t.me/Social_mechanic_1997)*")
         return
     
     audio = (
@@ -223,8 +223,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛs", url=f"https://t.me/Tamil_chat_group_1"),
-                InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/social_mechanic_1997"),
+                InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛs", url=f"https://t.me/tamil_chat_group_1"),
+                InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/social_mechanic"),
             ]
         ]
     )
@@ -297,7 +297,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**ANGEL MUSIC BOT ᴀᴅᴅᴇᴅ sᴏɴɢ \n ᴀᴛ ᴘᴏsɪᴛɪᴏɴ » `{}` **".format(position),
+            caption="**🅰︎ɴɢᴇʟ 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ ᴀᴅᴅᴇᴅ sᴏɴɢ \n ᴀᴛ ᴘᴏsɪᴛɪᴏɴ » `{}` **".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -314,7 +314,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**ANGEL MUSIC BOT ɴᴏᴡ \n ᴘʟᴀʏɪɴɢ ᴏᴘ...**".format(),
+            caption="**🅰︎ɴɢᴇʟ 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ ɴᴏᴡ \n ᴘʟᴀʏɪɴɢ ᴏᴘ...**".format(),
            )
 
     os.remove("final.png")
@@ -328,7 +328,7 @@ async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/3eaa696690c2910facd2a.jpg", 
-                             caption="**ANGEL MUSIC BOT ɴᴏᴡ \n ᴘᴀᴜsᴇᴅ...**"
+                             caption="**🅰︎ɴɢᴇʟ 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ ɴᴏᴡ \n ᴘᴀᴜsᴇᴅ...**"
     )
 
 
@@ -339,7 +339,7 @@ async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/3eaa696690c2910facd2a.jpg", 
-                             caption="**ANGEL MUSIC BOT ɴᴏᴡ \n ᴘʟᴀʏɪɴɢ...**"
+                             caption="**🅰︎ɴɢᴇʟ 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ ɴᴏᴡ \n ᴘʟᴀʏɪɴɢ...**"
     )
 
 
@@ -354,7 +354,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**ANGEL MUSIC BOT ɴᴏᴛʜɪɴɢ \n ᴘʟᴀʏɪɴɢ...**")
+        await message.reply_text("**🅰︎ɴɢᴇʟ 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ ɴᴏᴛʜɪɴɢ \n ᴘʟᴀʏɪɴɢ...**")
     else:
         queues.task_done(chat_id)
         
@@ -373,7 +373,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/3eaa696690c2910facd2a.jpg", 
-                             caption=f'**ANGEL MUSIC BOT ɴᴏᴡ \n sᴋɪᴘᴘᴇᴅ...**'
+                             caption=f'**🅰︎ɴɢᴇʟ 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ ɴᴏᴡ \n sᴋɪᴘᴘᴇᴅ...**'
    ) 
 
 
@@ -389,7 +389,7 @@ async def stop(_, message: Message):
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/3eaa696690c2910facd2a.jpg", 
-                             caption="**ANGEL MUSIC BOT ɴᴏᴡ \n❌ sᴛᴏᴘᴘᴇᴅ...**"
+                             caption="**🅰︎ɴɢᴇʟ 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ ɴᴏᴡ \n❌ sᴛᴏᴘᴘᴇᴅ...**"
     )
 
 
@@ -407,5 +407,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph/file/3eaa696690c2910facd2a.jpg",
-                              caption="**ANGEL MUSIC BOT ɴᴏᴡ \n ʀᴇʟᴏᴀᴅᴇᴅ...**"
+                              caption="**🅰︎ɴɢᴇʟ 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ ɴᴏᴡ \n ʀᴇʟᴏᴀᴅᴇᴅ...**"
     )
