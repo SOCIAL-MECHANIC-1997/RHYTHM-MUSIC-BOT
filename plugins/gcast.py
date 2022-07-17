@@ -1,4 +1,4 @@
-# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 (C) 2022 𝑩𝒚 @socialmechanic
+# Social mechanic // @Social_mechanic_1997
 
 import asyncio
 from pyrogram import Client, filters
